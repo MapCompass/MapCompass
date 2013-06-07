@@ -1,0 +1,26 @@
+Things to do if we get lost with our app and have to clone it again.
+
+
+If we ever get struck with merging conflicts and any other things , which makes us to delete our current repo and clone a new one , there are a few things to do first.
+
+
+1. We need to switch to the branches 'dev' and 'heroku' once .
+2. Then we add a upstream to heroku remote branch of ours(mapyourfriend.herokuapp.com) .
+3. For that, switch to the heroku branch. 
+	CMD : git checkout hreoku 
+4. And type the following command to add the remote upstream. 
+	CMD : git remote add heroku git@heroku.com:mapyourfriend.git 
+
+5. That will create a upstream to the app , and let us push content safely to our app.
+
+
+NOTE : Before starting to work on the app, we have to pull all the branch changes first .
+
+NOTE : Before starting to work on the app, we should switch to 'dev' branch and work. We can make changes and delete changes , and if satisfied then merge them to 'master' branch first and merge the 'master' branch to 'heroku' branch. 
+
+CAUTION : Never merge the 'dev' branch to 'heroku' . Merge only the 'master' branch to the 'heroku'. Because the branch 'master' is stable than 'dev'  .
+
+
+CAUTION : If changes are permanent, Never ever ever leave your changes un-committed and un-pushed, before leaving the work .  Lets push them before , we leave the work for a day. That will notify the other developers that a changes has been done. 
+
+

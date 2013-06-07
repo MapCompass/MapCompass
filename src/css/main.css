@@ -1,0 +1,151 @@
+/*
+
+	CSS StyleSheet Chat Application
+	
+*/
+
+html, body {
+	margin:0px;
+
+}
+
+#messages {
+	width: 500px;
+	height: 150px;
+	position: relative;
+	border: 1px solid #CCC;
+	overflow: auto;
+	left: 400px;
+}
+
+#input {
+	position: relative;
+	left: 400px;
+}
+#message {
+	width: 300px;
+	height: 20px;
+}
+#feedback {
+	display: none;
+}
+#map{
+    position :absolute;
+	top: 10%;
+	width:600px;
+	height:400px;
+}
+
+#sideBar{
+	
+	position: relative;
+	left: 50%;
+	top: 10%;
+
+	
+}
+
+#sideBar div{
+ 	cursor:pointer 
+ 	
+}
+
+#sideBar div:hover{ 
+	text-decoration:underline 
+}
+
+#buttons{ 
+	clear:both;
+	text-align:center 
+}
+    /* clicked items get this class */
+
+.bSideSelect{ 
+	background:#dadae3; 
+}
+#usernavbar{
+background: #EEF7FF; 	
+width: 200px;
+height: 900px;
+top: 50px;
+border:0px;
+}
+#usernavbar img{
+	width:100px;
+	height:100px;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+#usernavbar ul{
+	position: relative;
+	top: 20px;
+}
+#usernavbar ul li{
+	text-align: center;
+}
+.navbar-inner{
+    -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+    width : 100%;
+}
+@media (max-width: 480px) {
+ #usernavbar{
+     display : none;
+ }   
+ #map{
+     position:absolute;
+     //top :70%;
+     left:5%;
+     height:70%;
+     width: 90%;
+ }
+#messages {
+  
+
+}
+#input {
+  
+}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+ #usernavbar{
+     display : none;
+ }   
+ #map{
+     position:absolute;
+ // top: 70%;   
+//     left:5%;
+     height:70%;
+     width: 70%;
+ }
+#messages {
+    display : none;
+
+}
+#input {
+    display : none;
+}
+
+
+	}
+
+	@media (max-width: 767px) {
+ #usernavbar{
+     display : none;
+ }   
+ #map{
+     position:absolute;
+   // top: 75%;
+     left:5%;
+     height:70%;
+     width: 90%;
+ }
+#messages {
+ 
+}
+#input {
+ 
+}
+
+}

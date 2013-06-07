@@ -1,0 +1,13 @@
+{
+  "name": "Map Your Friend",
+  "description": "An app that displays the location of your friend",
+  "launch_path": "/Map-your-friend",
+  "developer": {
+    "name": "Abhiram A",
+    "url": "http://mrabhiram.github.com"
+  },
+  "developer": {
+    "name": "Bharath Thiruveedula",
+    "url": "http://bharaththiruveedula.github.com"
+  }
+}

@@ -1,0 +1,49 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.carousel{
+    position : relative;
+    top : 35px;
+}
+.container-narrow > hr {
+    margin: 2px;
+}
+.jumbotron {
+    margin: 60px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 2;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+    width : 200px;
+    margin-bottom : 5px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.container{
+    font-size : 1.2em;
+}
+#area,#area1,#area2,#area3,#area4{
+    display : inline;
+    margin : 10px;
+}
+.correct{
+    color : green;
+}
+.wrong{
+    color : red;
+}
