@@ -1,8 +1,8 @@
 ==============================
- Map-your-friend Open Web App
+ MapCompass Open Web App
 ==============================
 
-Map-your-friend is a open web app that displays user's current location and also location of the users who are using this app.
+MapCompass is a open web app that displays user's current location and also location of the users who are using this app.
 
 It is used to locate friends, track them, guide them and almost every thing to spot them.
 
@@ -17,14 +17,14 @@ The project is organised in to folders .
 
 To install , copy the files in the web folder of PHP server used.
 
-Create a database name called "MYF".
+Create a database name called "MC".
 
-Import the "users.sql" file to database "MYF". 
+Import the "users.sql" file to database "MC". 
 
 That should get to run the project.
 
 Snapshot :
-![Alt text](/res/img/myf/myf_demo.png "Map Your Friend - Locate and share with your friends")
-We have hosted this project at http://myf.webuda.com
+![Alt text](/res/img/myf/myf_demo.png "MapCompass - Locate and share with your friends")
+We have hosted this project at http://mapcompass.org
 
 To ask for any detail : #myf on freenode (updating soon).
