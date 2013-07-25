@@ -21,7 +21,7 @@
         });
         $('#logout').click(function(){
             $.ajax("session.php")
-                .done(function(){window.location.replace("http://localhost/Map-your-friend");}); 
+                .done(function(){window.location.replace("http://localhost/MapCompass");}); 
         });
       });
     </script>
