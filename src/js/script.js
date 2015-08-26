@@ -9,7 +9,7 @@ $(document).ready(function () {
 	
 	$.ajax({
 	    type : "POST",
-	    url : "http://localhost/Map-your-friend/src/php/validation/create.php",
+	    url : "http://localhost/MapCompass/src/php/validation/create.php",
 	    data : {
                 nickname : nickname,
 		group : group,

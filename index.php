@@ -4,15 +4,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Map Your Friend</title>
+        <title>MapCompass</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <META NAME="KEYWORDS" CONTENT="mapyourfriend,myf,how to locate my friend">
-        <META NAME="DESCRIPTION" CONTENT="This app lets you locate your friends online and communicate to each other.">
+        <META NAME="KEYWORDS" CONTENT="mapcompass,friend locator,how to locate my friend in mobile">
+        <META NAME="DESCRIPTION" CONTENT="MapCompass lets you locate your friends online and communicate to each other.">
         <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="EN">
         <META NAME="Author" CONTENT="Abhiram">
-        <META NAME="Author" CONTENT="Bharath">
         <META NAME="Copyright" CONTENT="copyright">
+        <meta name="google-site-verification" content="CeFZHy1-nRTPTrmCI5-g68cAxZJEBPuaWIoN7s7azSk" />
         <!-- MetaTags http://myf.webuda.com/ -->
         <!-- This app lets you locate your friends online and communicate to each other. -->
         <link href="src/css/bootstrap.css" rel="stylesheet">
@@ -28,15 +28,14 @@
     <body>
         <div class="container-narrow">
             <div class="masthead">
-                <a href="" ><img src="res/img/Black_and_white_223x75.png" class="img-rounded"></a>
+                <a href="index.php" ><img src="res/img/my_logo.png" class="img-rounded"></a>
                 <ul class="nav nav-pills pull-right">
-                    <li class=""><a href="">Home</a></li>
-                    <li><a href="">About app</a></li>
+                    <li><a href="#">Home</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Get Involved <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Feature request</a></li>
-                            <li><a href="#">Donate</a></li>
+                            <li><a href="contribute_code.php">Contribute code</a></li>
+                            <li><a href="donate.php">Donate</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -69,7 +68,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Specify your group ID here and your nickname.</p>
-                    <form method="POST" action="src/php/map/map.php">
+                    <form method="POST" action="src/php/map/map1.php">
                         <label for="groupid">Groupid:</label>
                         <input type="text" id="groupid" name="groupid" placeholder="Enter the group id provided" onkeyup="func_group()"/><div id="area"></div>
                         <label for="name">Username:</label>
@@ -87,14 +86,14 @@
                 <video id="example_video_1" class="video-js vjs-default-skin"
                     controls preload="auto" width="480" height="270"
                     data-setup='{"example_option":true}'>
-                <source src="res/video/myf.mp4" type='video/mp4' />
+                <source src="res/video/mapcompass.webm" type='video/webm' />
             </div>
             <div class="jumbotron">
                 <button class="btn btn-large btn-success" id="createGroup" data-toggle="modal" data-target="#dialogBox">Create a group</button>
                 <button class="btn-large btn" id="joinGroup" data-toggle="modal" data-target="#joinBox">Join a Group</button>
             </div>
             <div class="footer">
-                <center> <p>&copy; Company 2012</p> </center>
+                <center> <p>&copy; MapCompass 2012</p> </center>
             </div> 
         </div> <!-- /container -->
 
@@ -105,7 +104,7 @@
                 <script>
                 $('#createGroup').attr('disabled',true);
                 $('#joinGroup').click(function(){
-                    window.location.replace("http://localhost/Map-your-friend/src/php/map/map.php");
+                    window.location.replace("http://mapcompass.org/src/php/map/map1.php");
                 });
                 </script><?php
             }
